@@ -12,7 +12,7 @@ You may need to add JavaScript and HTML tags to each page to complete the assign
 - [x] Complete Day 2
 - [x] Complete Day 3
 - [x] Complete Day 4
-- [ ] Complete Day 5
+- [x] Complete Day 5
 
 ## Contact
 

@@ -92,11 +92,13 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20); 
+      document.write(y3)
     </script>
   </p>
   <h3>Example 2</h3>
   <p>Let's make a new function. We will call it g(x).</p>
-  <p> Our ice cream shop raised it's prices to $5 for one cone. We still sell one cone a day. We still start with $5.
+  <p> Our ice cream shop raised it's prices to $2 for one cone. We still sell one cone a day. We still start with $5.
     Our new function looks like this: </p>
   <pre>
     g(x) = 2 * x + 5;
@@ -139,7 +141,7 @@
     </script>
   </p>
   <p>
-    For x = 5...
+    For x = 10...
     g(x) =
     <script>
       z2 = g(10);
@@ -151,45 +153,90 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21);
+      document.write(z4);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z5 = g(1001);
+      document.write(z5);
     </script>
   </p>
 
   <h3>You Try it!</h3>
-  <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone.
+  <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone. You are starting at $5. 
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
     15, 21 and 1001 days.</p>
+
+    <script>
+      let a1;
+      let a2;
+      let a3;
+      let a4;
+      let a5;
+  
+      function h(x) {
+        return x * 1.5 + 5;
+      }
+    </script>
 
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
 
-
-
-
-
-
-
-
-
-
+    <p>
+      For x = 5...
+      h(x) =
+      <script>
+        a1 = h(5);
+        document.write(a1);
+      </script>
+    </p>
+    <p>
+      For x = 10...
+      h(x) =
+      <script>
+        a2 = h(10);
+        document.write(a2);
+      </script>
+    </p>
+    <p>
+      For x = 15...
+      h(x) =
+      <script>
+        a3 = h(15);
+        document.write(a3);
+      </script>
+    </p>
+    <p>
+      For x = 21...
+      h(x) = 
+      <script>
+        a4 = h(21);
+        document.write(a4);
+      </script>
+    </p>
+    <p>
+      For x = 1001...
+      h(x) = 
+      <script>
+        a5 = h(1001);
+        document.write(a5);
+      </script>
+    </p>
 
   <h4>Bonus:</h4>
   <p>Try out some more functions for different business senarios. As an extra bonus, you might try two variables! For
